@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.gameSquare {
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.top {
+  border-top: 2px solid #000;
+}
+.left {
+  border-left: 2px solid #000;
+}
