@@ -6,14 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   stopBtn = document.querySelector('#stop'),
   gameSquares,
   cells,
-  player1 = {
-    sym: 'X',
-    num: 1
-  },
-  player2 = {
-    sym: 'O',
-    num: 2
-  },
+  player1 = {sym: 'X', num: 1},
+  player2 = {sym: 'O', num: 2},
   player,
   turn,
   game;
